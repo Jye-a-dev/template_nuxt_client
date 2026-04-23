@@ -1,4 +1,8 @@
 ﻿# Nuxt Client Template
+ ## Clone template
+```bash
+git clone https://github.com/Jye-a-dev/template_nuxt_client
+```
 
 Template khởi tạo cho Nuxt client app theo hướng dễ mở rộng, dùng:
 
