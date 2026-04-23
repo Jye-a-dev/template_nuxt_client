@@ -1,0 +1,22 @@
+﻿// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+  runtimeConfig: {
+    public: {
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || '/api'
+    }
+  },
+  app: {
+    head: {
+      title: 'Template Nuxt Client',
+      meta: [
+        {
+          name: 'description',
+          content: 'Folder structure and starter UI for a Nuxt client template.'
+        }
+      ]
+    }
+  }
+})
